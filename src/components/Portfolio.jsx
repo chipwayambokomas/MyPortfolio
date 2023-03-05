@@ -66,7 +66,7 @@ const Portfolio = () => {
     >
       <div
         className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full
-         h-full"
+         h-full pt-32"
       >
         <div>
           <p className="text-4xl  font-bold inline border-b-4  ">Portfolio</p>
