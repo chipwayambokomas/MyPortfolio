@@ -17,7 +17,7 @@ const Home = () => {
             I am a B.Bus.Sci Student.
           </h2>
           <p className="text-gray-400 max-w-md py-4">
-            I aspire to be in the frontline of the charge towards the
+            Studying at the University of Cape Town, I aspire to be in the frontline of the charge towards the
             exploration and development of cutting edge technology. Motivated by
             nothing but the sheer will to learn, curiosity and the patriotic
             duty to help public and private organisations realize their full
@@ -36,7 +36,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="pt-20 md:pt-0">
+        <div className="pt-10 md:pt-0">
           <img
             src={heroImg}
             alt="My Profile"
