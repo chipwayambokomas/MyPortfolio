@@ -1,6 +1,7 @@
 import React from "react";
 import heroImg from "../assets/heroImage_resized.jpeg";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-scroll";
 const Home = () => {
   return (
     // We do not usually use a name attribute in react but it will be useful when creating the smart scroll
@@ -27,12 +28,12 @@ const Home = () => {
           <div>
             {/* Adding group to the outer div and group- to the inner button allows them to function in unity */}
 
-            <button className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer group">
+            <Link to='Portfolio'smooth duration={500}className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer group">
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
                 <MdKeyboardArrowRight size={25} className='ml-1'/>
               </span>
-            </button>
+            </Link>
           </div>
         </div>
 

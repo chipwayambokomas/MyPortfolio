@@ -2,7 +2,7 @@ import React from "react";
 import mercuryexpress from "../assets/portfolio/mercuryexpressproject.png";
 import firstportfolio from "../assets/portfolio/firstportfolio.png";
 import { FaGithub } from "react-icons/fa";
-import { BsGlobe2 } from "react-icons/bs";
+// import { BsGlobe2 } from "react-icons/bs";
 import {GrReactjs} from 'react-icons/gr';
 import {AiFillHtml5} from 'react-icons/ai';
 import {SiJavascript, SiTailwindcss} from 'react-icons/si';
@@ -15,7 +15,7 @@ const Portfolio = () => {
       id: 1,
       source: mercuryexpress,
       shortBio:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi maiores tempora modi ipsam sint cumque vel ducimus fugi",
+        "Foundation code for the Front-end of a Zambian Logistics company. My first code outside of school guidlines. My favorite page is the Blog page.",
         Glink: 'https://github.com/chipwayambokomas/Mercury.co.za',
         child:(
             <div className="flex flex-row">
@@ -37,7 +37,7 @@ const Portfolio = () => {
       id: 2,
       source: firstportfolio,
       shortBio:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi maiores tempora modi ipsam sint cumque vel ducimus fugi",
+        "I was asked to provide a portfolio and realized I did not have one, deveoping a website for my portfolio would be good practice. I got familiar with Tailwind CSS",
         Glink:'https://github.com/chipwayambokomas/MyPortfolio',
         child:(
             <div className="flex flex-row">
@@ -82,9 +82,9 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-12 m-3 duration-200 hover:scale-105">
+                {/* <button className="w-1/2 px-12 m-3 duration-200 hover:scale-105">
                   <BsGlobe2 size={25} />
-                </button>
+                </button> */}
 
                <a href={Glink}>
                 <button className="w-1/2 px-12 m-3 duration-200 hover:scale-105">

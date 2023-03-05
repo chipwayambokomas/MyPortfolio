@@ -56,8 +56,8 @@ const SocialLinks = () => {
       <ul>
         {/* When you add hover then change the css of something else thenit changes the whole thing which is really cool. Tailwind makes things so much easier! */}
 
-        {links.map(({id, child, href, style, download}) => (
-             <li className={"flex justify-between items-center w-40 h-14 px-4 bg-zinc-500 hover:rounded-md duration-300 hover:ml-[-10px] ml-[-100px]" + " " + style} key={id} >
+        {links.map(({id, child, href, download}) => (
+             <li className="flex justify-between items-center w-40 h-14 px-4 bg-zinc-500 hover:rounded-md duration-300 hover:ml-[-10px] ml-[-100px]" key={id} >
           <a
             href={href}
             className="flex justify-between items-center w-full text-white"
