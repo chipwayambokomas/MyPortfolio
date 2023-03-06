@@ -37,7 +37,7 @@ const Portfolio = () => {
       id: 2,
       source: firstportfolio,
       shortBio:
-        "I was asked to provide a portfolio and realized I did not have one, deveoping a website for my portfolio would be good practice. I got familiar with Tailwind CSS.",
+        "I was asked to provide a portfolio and realized I did not have one, developing a website for my portfolio would be good practice. I got familiar with Tailwind CSS.",
         Glink:'https://github.com/chipwayambokomas/MyPortfolio',
         child:(
             <div className="flex flex-row">
