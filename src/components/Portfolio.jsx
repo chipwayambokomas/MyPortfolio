@@ -92,7 +92,7 @@ const Portfolio = () => {
       id: 4,
       source: storeapi,
       shortBio:
-        "This is a storeAPI that allows sorting, numeric and categorical filtering as well as name searching. It also allows dynamic page functionality i.e page 1, page 2",
+        "This is a storeAPI that allows sorting, numeric and categorical filtering as well as name searching. It also allows dynamic page functionality i.e page 1, page 2.",
         Glink:'https://github.com/chipwayambokomas/StoreAPI',
         child:(
             <div className="flex flex-row">
