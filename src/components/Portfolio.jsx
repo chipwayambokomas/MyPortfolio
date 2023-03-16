@@ -2,6 +2,7 @@ import React from "react";
 import mercuryexpress from "../assets/portfolio/mercuryexpressproject.png";
 import firstportfolio from "../assets/portfolio/firstportfolio.png";
 import taskmanager from '../assets/portfolio/taskmanager.png'
+import storeapi from '../assets/portfolio/storeapi.png'
 import { FaGithub, FaNodeJs } from "react-icons/fa";
 // import { BsGlobe2 } from "react-icons/bs";
 import {GrReactjs} from 'react-icons/gr';
@@ -66,12 +67,36 @@ const Portfolio = () => {
         Glink:'https://github.com/chipwayambokomas/Task-Manager',
         child:(
             <div className="flex flex-row">
-            <div className="px-2 text-cyan-600 ">
-                <GrReactjs size={25}/>
-            </div>
             <div className="px-2 text-orange-600 ">
             <AiFillHtml5 size={25}/>
             </div>
+            <div className="px-2 text-yellow-400 ">
+            <SiJavascript size={25}/>
+        </div>
+       
+        <div className="px-2 text-lime-700 ">
+            <FaNodeJs size={25}/>
+        </div>
+        <div className="px-2 text-white ">
+            <SiExpress size={25}/>
+        </div>
+        <div className="px-2 text-lime-700 ">
+            <SiMongodb size={25}/>
+        </div>
+        </div>
+            
+        )
+    },
+      
+      {
+      id: 4,
+      source: storeapi,
+      shortBio:
+        "This is a storeAPI that allows sorting, numeric and categorical filtering as well as name searching. It also allows dynamic page functionality i.e page 1, page 2",
+        Glink:'https://github.com/chipwayambokomas/Task-Manager',
+        child:(
+            <div className="flex flex-row">
+  
             <div className="px-2 text-yellow-400 ">
             <SiJavascript size={25}/>
         </div>
