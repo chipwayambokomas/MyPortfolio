@@ -21,7 +21,7 @@ const Portfolio = () => {
       shortBio:
         "Foundation code for the Front-end of a Zambian Logistics company. My first code outside of school guidlines. My favorite page is the Blog page.",
         Glink: 'https://github.com/chipwayambokomas/Mercury.co.za',
-      Warning: 'Notice: Only GitHub-Link acctive at this moment',
+      Warning: 'Notice: Only GitHub-Link active at this moment',
         child:(
             <div className="flex flex-row">
             <div className="px-2 text-cyan-600 ">
@@ -69,7 +69,7 @@ const Portfolio = () => {
       shortBio:
         "This was my first attempt at a nodejs/expressjs project. It's a task manager that receives data from an API I created.",
         Glink:'https://github.com/chipwayambokomas/Task-Manager',
-          Warning: 'Notice: Only GitHub-Link acctive at this moment',
+          Warning: 'Notice: Only GitHub-Link active at this moment',
         child:(
             <div className="flex flex-row">
             <div className="px-2 text-orange-600 ">
@@ -99,7 +99,7 @@ const Portfolio = () => {
       shortBio:
         "This is a storeAPI that allows sorting, numeric and categorical filtering as well as name searching. It also allows dynamic page functionality i.e page 1, page 2.",
         Glink:'https://github.com/chipwayambokomas/StoreAPI',
-         Warning: 'Notice: Only GitHub-Link acctive at this moment',
+         Warning: 'Notice: Only GitHub-Link active at this moment',
         child:(
             <div className="flex flex-row">
   
@@ -127,7 +127,7 @@ const Portfolio = () => {
       shortBio:
         "In this project I learnt how to create JWT tokens to provide restricted access to specific routes and data.",
         Glink:'https://github.com/chipwayambokomas/jsonWebTokens',
-          Warning: 'Notice: Only GitHub-Link acctive at this moment',
+          Warning: 'Notice: Only GitHub-Link active at this moment',
         child:(
             <div className="flex flex-row">
             <div className="px-2 text-orange-600 ">
