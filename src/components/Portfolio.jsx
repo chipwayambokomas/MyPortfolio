@@ -155,7 +155,7 @@ const Portfolio = () => {
       source: jobapi,
       shortBio:
         "In this project I created an API for a Job tracker, it allows a user to login or register and once done the server will pass a jsonWebToken to the user allowing the user to create, delete, edit and display jobs only for said user.",
-        Glink:'https://github.com/chipwayambokomas/StoreAPI',
+        Glink:'https://github.com/chipwayambokomas/JobsAPI',
         Wlink: 'https://chipwayambokomas-job-api-v0.herokuapp.com/',
         child:(
             <div className="flex flex-row">
